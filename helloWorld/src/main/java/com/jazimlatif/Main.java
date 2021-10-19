@@ -1,23 +1,19 @@
 package com.jazimlatif;
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 
 public class Main {
     public static void main(String[] args) {
-//        String name = new String("Helena");
-//        String name2 = "Helena";
-//        String name3 = "Helena";
-//        System.out.println(name.compareTo(name2));
-//        System.out.println(name.equals(name2));
-//        System.out.println(name == name3);
-//        System.out.println(name2==name3);
+        String[] given = new String[]{"you","are","how","Hello"};
+        String end = "";
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("What is your name");
+        for (int i=given.length-1; i>= 0 ; i--) {
+           end += given[i]+" ";
 
-        String input = scanner.nextLine();
-        System.out.println("Hello "+input);
+
+        }
+        System.out.println(end);
     }
 }
 
