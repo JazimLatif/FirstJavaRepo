@@ -1,4 +1,6 @@
 package com.jazimlatif;
 
-public class Excersize1 {
+public class Ex1 {
+
+
 }
